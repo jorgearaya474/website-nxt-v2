@@ -1,6 +1,6 @@
 import type { TechSkill } from "@/types/types";
 import WordPressIcon from "@/components/icons/WordPressIcon";
-import PHPIcon from "@/components/icons/phpIcon";
+import PHPIcon from "@/components/icons/PHPIcon";
 import JavaScriptIcon from "@/components/icons/JavaScriptIcon";
 import ReactIcon from "@/components/icons/ReactIcon";
 import NextjsIcon from "@/components/icons/NextjsIcon";
