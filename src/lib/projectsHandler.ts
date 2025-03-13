@@ -29,7 +29,5 @@ export async function getProjects() {
 
   projects.sort((a, b) => b.order - a.order);
 
-  console.log(projects);
-
   return projects;
 }
