@@ -15,15 +15,15 @@ export const metadata = {
 export default async function Home() {
   return (
     <>
-      <div className="gradient-bg bg-slate-900 relative py-36 md:py-0">
+      <div className="gradient-bg bg-slate-900 relative py-32 md:py-0">
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:min-h-svh">
-            <div className="col-span-3 flex flex-col items-start justify-center gap-6 order-last md:order-first">
-              <h1 className="font-lexend font-black text-white text-5xl md:text-7xl leading-22 ">
+            <div className="md:col-span-3 flex flex-col items-start justify-center gap-6 order-last md:order-first">
+              <h1 className="font-lexend font-black text-white text-3xl md:text-7xl leading-22 ">
                 Jorge Araya <br />
                 <span className="text-teal-400"> Full-Stack Developer</span>.
               </h1>
-              <p className="font-opensans font-medium text-white text-xl">
+              <p className="font-opensans font-medium text-white text-lg md:text-xl">
                 I build fast, scalable, and high-converting websites using
                 modern web technologies. From custom WordPress solutions to
                 Next.js and headless architectures, I help businesses craft
@@ -37,11 +37,11 @@ export default async function Home() {
                 className="w-auto"
               />
             </div>
-            <div className="col-span-2 hidden md:flex flex-col justify-center items-center md:items-end gap-6">
+            <div className="md:col-span-2 md:flex flex-col justify-center items-center md:items-end gap-6">
               <Image
                 src={Photo}
                 alt="Jorge Araya"
-                className="md:h-[400px] md:w-[400px] object-cover rounded-3xl bg-gradient-to-r from-teal-500 to-cyan-500 p-2 aspect-square"
+                className="h-56 w-full md:h-[400px] md:w-[400px] object-cover rounded-3xl bg-gradient-to-r from-teal-500 to-cyan-500 p-1 md:p-2 aspect-square"
               />
             </div>
           </div>
@@ -56,7 +56,7 @@ export default async function Home() {
             </h2>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div className="bg-slate-800/60 p-10 rounded-lg">
+            <div className="bg-slate-800/60 p-8 rounded-lg">
               <div className="flex flex-row gap-4 justify-start items-center">
                 <CheckMarkIcon />
                 <h3 className="font-lexend text-2xl font-bold text-white">
@@ -70,7 +70,7 @@ export default async function Home() {
                 and user engagement.
               </p>
             </div>
-            <div className="bg-slate-800/60 p-10 rounded-lg">
+            <div className="bg-slate-800/60 p-8 rounded-lg">
               <div className="flex flex-row gap-4 justify-start items-center">
                 <CheckMarkIcon />
                 <h3 className="font-lexend text-2xl font-bold text-white">
@@ -84,7 +84,7 @@ export default async function Home() {
                 improving engagement and conversion rates.
               </p>
             </div>
-            <div className="bg-slate-800/60 p-10 rounded-lg">
+            <div className="bg-slate-800/60 p-8 rounded-lg">
               <div className="flex flex-row gap-4 justify-start items-center">
                 <CheckMarkIcon />
                 <h3 className="font-lexend text-2xl font-bold text-white">
@@ -125,7 +125,7 @@ export default async function Home() {
                 flexibility with leading builders like Elementor and others.
               </p>
             </div>
-            <div className="col-span-2">
+            <div className="md:col-span-2">
               <TechStack />
             </div>
           </div>
